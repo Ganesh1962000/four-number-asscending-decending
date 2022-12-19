@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascending-Decending-Order-Print-Four-Number</title>
+</head>
+<body>
+
+    <script>
+
+        //--------Print Four Number Ascending and Descending Order in User Get Three Values
+
+        let num1=prompt("Enter a Number");
+        let num2=prompt("Enter a Number");
+        let num3=prompt("Enter a Number");
+
+           if(num3>num1 && num2>num1){
+                if(num3>num2){
+                    console.log(num1,num2,num3);
+                }else{
+                    console.log(num1,num3,num2);
+                }
+           }else if(num3>num2 && num1>num2){
+                if(num3>num1){
+                    console.log(num2,num1,num3);
+                }else{
+                    console.log(num2,num3,num1);
+                }
+           }else{
+            if(num2>num1){
+                console.log(num3,num1,num2);
+            }else{
+                console.log(num3,num2,num1);
+            }
+           }
+
+    </script>
+    
+</body>
+</html>
